@@ -30,6 +30,7 @@
 
     var randomName = faker.name.findName(); // Rowan Nikolaus
     var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomSocial = faker.internet.social(); // https://twitter.com/Kassandra.Haley
     var randomCard = faker.helpers.createCard(); // random contact card containing many properties
 ```
 ## API
@@ -180,6 +181,8 @@
   * color
   * mac
   * password
+  * social
+
 * lorem
   * word
   * words
